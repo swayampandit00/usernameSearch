@@ -1,0 +1,33 @@
+{
+  "name": "userdorking",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "vite --host 0.0.0.0 --port 5173",
+    "server": "node server/index.js",
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm run server\" \"npm run web\"",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "expo": "~52.0.46",
+    "expo-status-bar": "~2.0.1",
+    "express": "^4.21.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.2.5"
+  },
+  "author": "swayampandit"
+}

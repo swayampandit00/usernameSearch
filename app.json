@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "userdorking",
+    "slug": "userdorking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.swayampandit.userdorking"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.swayampandit.userdorking"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "userdorking",
+      "shortName": "userdorking",
+      "description": "Instantly check username availability across 100+ platforms. By swayampandit."
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b76afdf1-9d3a-4797-b4b5-7301ff783e77"
+      }
+    },
+    "owner": "devil00"
+  }
+}
