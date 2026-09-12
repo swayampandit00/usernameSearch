@@ -35,6 +35,9 @@
         "projectId": "b76afdf1-9d3a-4797-b4b5-7301ff783e77"
       }
     },
-    "owner": "devil00"
+    "owner": "devil00",
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
