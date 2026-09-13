@@ -3,7 +3,7 @@ import services, { categories } from './data/services';
 import { generateSuggestions } from './utils/suggest';
 import { EXPORT_FORMATS, buildExport, downloadExport } from './utils/exportResults';
 
-const API = '';
+const API = 'https://usernamesearch-5f00.onrender.com';
 
 function sanitize(raw) {
   return String(raw || '').replace(/[^a-zA-Z0-9-_.]/g, '');
