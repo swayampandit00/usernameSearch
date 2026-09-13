@@ -2,8 +2,7 @@
 
 Instant username search across 100+ platforms. Built with React Native (Expo) by swayampandit.
 
-Type a handle. Cards stream in as available or taken, the same flow as instantusername.com.
-
+Type a handle. Cards stream in as available or taken.
 ## Run
 
 ```bash
